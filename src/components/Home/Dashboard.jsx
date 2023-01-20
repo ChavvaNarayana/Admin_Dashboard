@@ -4,7 +4,7 @@ import { tokens } from "../../theme";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import Header from "./Header.jsx";
 import Row1 from "./GRID & CHARTS/Row1/Row1.jsx";
-// import Row2 from "./GRID & CHARTS/Row2/Row2.jsx";
+import Row2 from "./GRID & CHARTS/Row2/Row2.jsx";
 import Row3 from "./GRID & CHARTS/Row3/Row3.jsx";
 
 const Dashboard = () => {
@@ -33,7 +33,7 @@ const Dashboard = () => {
         </Box>
       </Box>
       <Row1 />
-      {/* <Row2 /> */}
+      <Row2 />
       <Row3 />
     </>
   );
